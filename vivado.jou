@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun 11 21:40:13 2023
+# Process ID: 11376
+# Current directory: C:/Users/Konara/Desktop/NP/NanoProcessor_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17880 C:\Users\Konara\Desktop\NP\NanoProcessor_Final\NanoProcessor_Final.xpr
+# Log file: C:/Users/Konara/Desktop/NP/NanoProcessor_Final/vivado.log
+# Journal file: C:/Users/Konara/Desktop/NP/NanoProcessor_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Register_Bank_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source Register_Bank_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source Register_Bank_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NanoProcessor_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_3
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+save_wave_config {C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Konara/Desktop/NP/NanoProcessor_Final/NanoProcessor_Final.srcs/sim_1/imports/NanoProcessor/NanoProcessor_TB_behav.wcfg
+source NanoProcessor_TB.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+close_sim
+close_sim

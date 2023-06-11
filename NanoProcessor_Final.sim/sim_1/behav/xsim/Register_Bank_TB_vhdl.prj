@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessor_Final.srcs/sources_1/imports/Konara/LAB4_final/LAB4_final.srcs/sources_1/new/Decoder_2_to_4.vhd" \
+"../../../../NanoProcessor_Final.srcs/sources_1/imports/Konara/LAB4_final/LAB4_final.srcs/sources_1/new/Decoder_3_to_8.vhd" \
+"../../../../NanoProcessor_Final.srcs/sources_1/new/Register_Bank.vhd" \
+"../../../../NanoProcessor_Final.srcs/sources_1/imports/Konara/Lab_06/Lab_06.srcs/sources_1/new/Reg.vhd" \
+"../../../../NanoProcessor_Final.srcs/sim_1/new/Register_Bank_TB.vhd" \
+
+# Do not sort compile order
+nosort
